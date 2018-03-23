@@ -1,5 +1,86 @@
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: blue;
 
+@import 'bourbon';
+
+body {
+    background-image: url("https://static.pexels.com/photos/167699/pexels-photo-167699.jpeg");
+    background-size: 1920px 1080px;
 }
+
+h1 {
+    font-size: 24px;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 19px;
+    font-family: Roboto;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.container {
+    padding: 40px;
+    margin: 20px;
+    background: #fff;
+    text-align: left;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    opacity: 0.8;
+}
+
+
+input {
+    border-width: 1px;
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(129, 194, 231);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(47, 92, 151);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(78, 128, 194);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.login {
+    text-align: center;
+    width: 100%;
+}
+
+.inputs {
+    text-align: left;
+}
+
+
